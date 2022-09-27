@@ -1,0 +1,522 @@
+ /*  
+    Author: Abhishek;
+    Theme: Pizza Hut;
+    Version: 1.0;
+ */
+
+ /* Css for all*/
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+ .container{
+   
+    width:80%;
+    margin: 0 auto;
+    padding: 1%;
+    
+ }
+
+ .img-responsive{
+    width: 100%;
+     
+}
+.img-responsive-logo{
+    width: 150%;
+     
+}
+
+.img-curve{
+    border-radius: 10px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color:#ff3838;
+     text-decoration: none;
+}
+
+a:hover{
+    color:#ff6b81;
+    
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 15px;
+    border-radius:7px;
+}
+
+.btn-primary{
+    background-color:#ff3838 ;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:#ffaf40 ;
+    color:black;
+}
+
+h2{
+    color: #4b4b4b;
+    margin: 2%;
+}
+
+h3{
+    font-size: 20px;
+
+}
+
+h1{
+    color: #4b4b4b;
+    margin: 2%;
+    font-size: 60px;
+}
+
+.float-container{
+    position: relative;
+}
+
+.float-text{
+    position: absolute;
+    bottom: 10px;
+    left: 38%;
+}
+
+.error{
+    padding: 2%;
+    color: red;
+}
+
+.success{
+    padding: 2%;
+    color: green;
+}
+
+.text-white{
+    color:white;
+}
+
+ /* Css logo design*/
+
+ .navbar{
+     background-color:#CAEBF2;
+ }
+
+ .navbar-altpage{
+     background-color: #CAEBF2;
+ }
+
+ .logo{
+     
+     width: 10%;
+     float:left
+ }
+
+ .menu{
+     line-height: 70px;
+ }
+
+ .menu ul{
+     list-style-type:none;
+ }
+
+ .menu ul li{
+     display: inline;
+     padding: 1%;
+     font-weight:bold;
+ }
+
+ /*  Animation keyframe */
+
+ @keyframes zoomInOut{
+     0%, 100%{
+         transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+ }
+
+
+ /*  CSS for Food Search Section  */
+
+ .food-search{
+     background-image:url(../images/bgsear.jpg);
+     background-size: cover ;
+     background-position:20vmax;
+     padding: 5% 0; 
+     animation:zoomInOut 20s ease infinite
+ }
+
+
+
+ .food-search input[type="search"]{
+     width: 50%;
+     padding: 1%;
+     font-size: 15px;
+     border: none;
+     border-radius:7px;
+ }
+
+
+ /* CSS for categories */
+
+ .categories{
+     padding:2% 0;
+     background-color: #CAEBF2;
+ }
+
+ .box-3{
+     
+     width:29%;
+     float:left;
+     margin: 2%;
+     transition: transform 0.3s ease;
+ }
+
+ .box-3:hover .float-text-img{
+     
+     transform: translateY(-15px);
+     background-color:#ff6b81 ;
+     color:black;
+     }
+
+ 
+
+ .float-text-img{
+     background-color:#ff3838 ;
+     color: white;
+     border-radius: 8px;
+     padding: 15px;
+     text-align: center;
+     position: absolute;
+     left: 30px;
+     right: 30px;
+     bottom: 0;
+     transform: translateY(70%);
+     transition: all 0.2s ease;
+     pointer-events: none;
+    
+ }
+
+
+
+ 
+
+/* CSS for food menu */
+.food-menu{
+    background-color:#CAEBF2;
+    padding: 1% 0;
+    margin-top: 0 0;
+    
+}
+ .food-menu-box{
+     
+     width: 45%;
+     margin: 1%;
+     padding: 1%;
+     float:left;
+     background-color: white;
+     border-radius: 15px;
+     
+ }
+
+ .food-menu-img{
+     width: 20%;
+     height: 20%;
+     float: left;
+     
+ }
+
+ .food-menu-desc{
+     width: 70%;
+     float: left;
+     margin-left: 5%
+ }
+
+ .food-price{
+     font-size: 17px;
+     margin:2%;
+ }
+
+ .food-details{
+     font-size: 15px;
+     color: #2c3e50;
+ }
+
+  
+ 
+ /* for Order Section */
+
+ 
+.order{
+    width: 40%;
+    margin: 0 auto;
+    
+}
+
+.order-background {
+    padding: 2% 0;
+  background-image: url(eating-pizza-with-social-distancing-new-normal-way-min.jpg);
+  background-position:center;
+  background-size: cover;
+}
+
+
+
+
+.input-responsive{
+    width: 94%;
+    padding: 1%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%;
+    margin-left: 5%; 
+    font-weight: bold;
+}
+
+ 
+
+/* css for social */
+
+ .social{
+     background-color: #CAEBF2;
+ }
+
+ 
+ .social ul {
+    list-style-type: none;
+ }
+ 
+ .social ul li {
+     display: inline;
+     padding: 1%;
+ }
+
+ .footer{
+     background-color: #CAEBF2;
+ }
+
+
+ /* contact section */
+
+ .contact-box{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 45%;
+    margin: 1%;
+    padding: 1%;
+    float:left;
+    background-color: #CAEBF2;
+    border-radius: 15px;
+ }
+
+
+
+
+
+
+
+
+
+ /*  CSS for mobile  */
+
+ @media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float:none;
+        margin: 1% auto;
+    }
+ 
+    .menu ul{
+        text-align: center;
+    }
+
+    .menu ul li{
+        font-size: 25px;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        margin-bottom: 5%;
+        padding: 2%;
+     }
+
+     .btn{
+         width: 90%;
+         padding: 2%;
+     }
+
+    .box-3{
+     
+        width:95%;
+        float:none;
+        margin: 10% auto;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 5% 0;
+    }
+
+    h2{
+        margin-bottom: 10%;
+    }
+
+    .food-menu{
+        padding: 5% 0;
+    }
+
+    .food-menu-box{
+        width: 100%;
+        padding: 3%;
+        margin-bottom:10px;
+    }
+
+    .social{
+        padding: 5% 0;
+    }
+
+    .float-text-img{
+        margin-top: 10%;
+    }
+
+    .contentbox{
+        width: 300px;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .contentbox .imgbx{
+        height: 200px;
+        transform: translateY(-50px);
+    }
+
+    .contentbox .content{
+        height: auto;
+        text-align: center;
+        padding: 20px;
+        padding-top: 0;
+    }
+
+    .close{
+        top:-50px;
+        right: -10px;
+        background: url(close.jpg);
+        background-repeat: no-repeat;
+        background-size: 40px;
+        background-position: center;
+    }
+ }
+
+ @media only screen and (max-width:360px){
+
+    .menu ul li{
+        font-size: 15px;
+    }
+
+ }
+
+
+ /* popup section */
+ .popup{
+     
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50% , -50%);
+     display : none; 
+    }
+
+.contentbox{
+        position: relative;
+        width: 600px;
+        height: 400px;
+        background: #fff;
+        border-radius:20px;
+        display:flex;
+        box-shadow:0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+.contentbox .imgbx{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .contentbox .imgbx img{ 
+    position: relative;
+    max-width:250px;
+    z-index: 1;
+}
+
+.contentbox .content{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.contentbox .content h2{
+    text-align: start;
+    color : #333;
+    line-height: 1em;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.contentbox .content h3{
+    font-size: 1em ;
+    color:#ff4d54;
+    line-height: 1em;
+}
+ 
+.close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: url(close.jpg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+}
+

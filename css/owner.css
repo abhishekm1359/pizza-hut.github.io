@@ -1,0 +1,190 @@
+/*
+author-abhishek
+topic-management
+version-0 
+ */
+
+ *{
+     margin: 0;
+     padding: 0;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .wrapper{
+    
+     width: 80%;
+     padding:2%;
+     margin: 0 auto;
+}
+
+.wrapper-order{
+    
+    width: 98%;
+    padding: 1%;
+    margin: 0 auto;
+    
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clear-fix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+    text-align: center;
+}
+
+.tbl-30{
+    width:40%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 2%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+    text-align: left;
+}
+
+.small{
+    font-size: 15px;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 15px;
+    border-radius:7px;
+}
+
+.btn-primary{
+    background-color: rgb(55, 0, 255);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+}
+
+.btn-primary:hover{
+    background-color:#3742fa;
+    
+}
+
+
+.btn-secondary{
+    background-color: #6ab04c;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+}
+
+.btn-secondary:hover{
+    background-color:#2ed573;
+    
+}
+
+
+.btn-danger{
+    background-color: #ff7979;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color:#eb4d4b;
+}
+
+.success{
+    color:#44bd32;
+    font-weight: 700;
+}
+
+.error{
+    color:#ff4757;
+    font-weight: 700;
+}
+
+/* CSS for Menu */
+
+.menu{
+    border-bottom: 1px solid black;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    color:#ff3838 ;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu ul li a:hover{
+    color:#ffaf40;    
+}
+
+
+/* CSS for main content */
+
+.main-content{
+   
+    background-color: #ced6e0;
+    padding: 5% 0;
+}
+
+.col-4{
+    width: 17%;
+    background-color: white;
+    margin: 2%;
+    padding: 2%;
+    float: left;
+}
+
+/* Footer Section */
+.footer{
+    color: #ff3838;
+    background-color: #48dbfb;
+}
+
+
+/* CSS for login */
+
+.bgimage{
+    
+    background-image: url(bg3.png);
+    background-size:cover;
+}
+
+.login{
+    /* border: 1px solid black; */
+    width: 25%;
+    margin: 8% auto;
+    padding: 2%;
+    
+}
+
+.style{
+    font-size:20px;
+}
+
